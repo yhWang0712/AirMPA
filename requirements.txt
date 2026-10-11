@@ -1,0 +1,12 @@
+# Python >= 3.10. Install a CUDA-compatible PyTorch and onnxruntime-gpu separately when needed.
+torch>=2.1
+numpy>=1.24
+pandas>=2.0
+xarray>=2024.1
+zarr>=2.16,<3
+numcodecs>=0.11,<0.16
+dask[array]>=2024.1
+tqdm>=4.65
+pytorch-msssim==1.0.0
+loguru>=0.7
+onnxruntime>=1.17

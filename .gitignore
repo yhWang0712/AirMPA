@@ -1,0 +1,36 @@
+# Data and derived statistics
+*.zarr/
+*.nc
+*.nc4
+*.grib
+*.grb
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.csv
+/data/
+*.ipynb
+
+# Model weights and runtime output
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+**/checkpoints/*
+!**/checkpoints/README.md
+**/logs/
+**/result/
+**/results/
+**/output/
+**/inference_results*/
+*.log
+*.jsonl
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
